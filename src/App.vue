@@ -1,6 +1,5 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script setup></script>
 
-<template>giorgi</template>
+<template>
+  <h1 class="accent-red-600 text-2xl">giorgo</h1>
+</template>
