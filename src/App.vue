@@ -1,5 +1,15 @@
-<script setup></script>
+<script setup>
+import HomeView from '@/views/HomeView.vue'
+</script>
 
 <template>
-  <h1 class="accent-red-600 text-2xl">giorgo</h1>
+  <div class="font">
+    <home-view class="body-font font-poppins"></home-view>
+  </div>
 </template>
+
+<style scoped>
+.font {
+  font-family: 'Josefin Sans', sans-serif;
+}
+</style>
