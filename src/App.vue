@@ -1,10 +1,8 @@
-<script setup>
-import HomeView from '@/views/HomeView.vue'
-</script>
+<script setup></script>
 
 <template>
-  <div class="font">
-    <home-view class="body-font font-poppins"></home-view>
+  <div class="body-font font-poppins">
+    <router-view></router-view>
   </div>
 </template>
 
