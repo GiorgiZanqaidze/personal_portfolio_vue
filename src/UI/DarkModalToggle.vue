@@ -10,7 +10,7 @@ const toggleDarkMode = useToggle(isDark)
 
 <template>
   <div
-    class="absolute right-2 flex py-1 px-2 rounded-3xl gap-2 justify-between cursor-pointer h-10 w-[5.5rem] border-2 border-amber-50"
+    class="absolute top-[-6rem] md:top-0 md:right-2 flex py-1 px-2 rounded-3xl gap-2 justify-between cursor-pointer h-10 w-[5.5rem] border-2 border-amber-50 scale-75 md:scale-100"
     @click="toggleDarkMode()"
   >
     <icon-moon
