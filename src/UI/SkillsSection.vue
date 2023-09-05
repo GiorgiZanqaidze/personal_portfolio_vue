@@ -3,7 +3,64 @@
 <template>
   <div
     class="my-14 bg-transparent h-[50rem] rounded-[50px] border-[3px] border-border-light relative z-50 max-w-[1600px] mx-auto"
-  ></div>
+  >
+    <div class="text-white flex min-h-full justify-evenly">
+      <div class="flex min-h-full items-center">
+        <h1 class="text-9xl">My Skills <br />Here</h1>
+      </div>
+      <div class="flex justify-center items-center flex-col">
+        <div class="circle">
+          <div class="icon absolute left-32">
+            <div style="box-shadow: 0 70px 100px 50px #00c2ff" class="w-20 mx-auto"></div>
+            <img src="../assets/images/laravel.png" class="w-full" alt="vue" />
+          </div>
+          <div class="icon absolute right-32">
+            <div style="box-shadow: 0 70px 100px 50px #00c2ff" class="w-20 mx-auto"></div>
+            <img src="../assets/images/php.png" class="w-full" alt="vue" />
+          </div>
+          <div class="icon absolute top-32">
+            <div style="box-shadow: 0 70px 100px 50px #00c2ff" class="w-20 mx-auto"></div>
+            <img src="../assets/images/nodejs.png" class="w-full" alt="vue" />
+          </div>
+          <div class="icon absolute bottom-32">
+            <div style="box-shadow: 0 70px 100px 50px #00c2ff" class="w-20 mx-auto"></div>
+            <img src="../assets/images/javascript.png" class="w-full" alt="vue" />
+          </div>
+          <!--          <img src="../assets/images/php.png" class="icon" alt="vue" />-->
+          <h1 class="icon text-4xl text-center font-bold">Back End</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation: rotate 6s linear infinite;
+}
+
+.icon {
+  animation: icons 6s linear infinite;
+}
+
+@keyframes icons {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style>
