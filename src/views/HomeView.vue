@@ -2,12 +2,15 @@
 import BoxShadow from '@/UI/BoxShadow.vue'
 import LandingContainer from '@/UI/LandingContainer.vue'
 import SkillsSection from '@/UI/SkillsSection.vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
 </script>
 
 <template>
   <main>
     <div class="h-screen">
-      <div class="dark:bg-dark-blue bg-light-gray min-h-full w-full overflow-hidden relative">
+      <div class="bg-dark-blue min-h-full w-full overflow-hidden relative">
         <box-shadow></box-shadow>
         <box-shadow
           class="w-1 h-1 absolute translate-x-[-40px] translate-y-[-40px] scale-[1.6] opacity-[0.3]"
@@ -16,6 +19,7 @@ import SkillsSection from '@/UI/SkillsSection.vue'
         <box-shadow class="top-96 right-[-10px]"></box-shadow>
         <landing-container></landing-container>
         <skills-section></skills-section>
+        <router-view class="absolute top-1/2 left-1/2" :key="route.path" />
       </div>
     </div>
   </main>

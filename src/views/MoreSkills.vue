@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <h1>hello</h1>
+  <button class="bg-red-500">hello</button>
 </template>
 
 <style scoped></style>
