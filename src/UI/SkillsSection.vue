@@ -1,10 +1,8 @@
 <script setup>
 import IconArrow from '@/components/icons/IconArrow.vue'
-import { useRouter, useRoute } from 'vue-router'
+import { useRouter } from 'vue-router'
 
 const router = useRouter()
-
-const route = useRoute()
 
 const showMoreSkills = () => {
   router.push({ name: 'skills' })

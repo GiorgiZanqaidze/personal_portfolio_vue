@@ -19,7 +19,7 @@ const route = useRoute()
         <box-shadow class="top-96 right-[-10px]"></box-shadow>
         <landing-container></landing-container>
         <skills-section></skills-section>
-        <router-view class="absolute top-1/2 left-1/2" :key="route.path" />
+        <router-view :key="route.path"></router-view>
       </div>
     </div>
   </main>

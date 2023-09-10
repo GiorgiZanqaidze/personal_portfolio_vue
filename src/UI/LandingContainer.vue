@@ -1,6 +1,5 @@
 <script setup>
 import IconDonut from '@/components/icons/IconDonut.vue'
-import DarkModalToggle from '@/UI/DarkModalToggle.vue'
 </script>
 
 <template>
@@ -8,8 +7,7 @@ import DarkModalToggle from '@/UI/DarkModalToggle.vue'
     class="my-14 bg-transparent h-[50rem] rounded-[50px] border-[3px] border-border-light relative z-50 max-w-[1600px] mx-auto"
   >
     <header class="z-50 mt-10 mx-20 text-white flex justify-center relative items-center">
-      <dark-modal-toggle></dark-modal-toggle>
-      <h1 class="sm:text-6xl text-4xl text-center font-bold">Web Developer</h1>
+      <h1 class="sm:text-6xl text-4xl text-center font-bold tracking-wider">Web Developer</h1>
     </header>
     <article class="flex justify-center sm:justify-between sm:mx-24 text-white">
       <div class="sm:w-2/5 w-4/5 flex justify-center flex-col gap-11">
