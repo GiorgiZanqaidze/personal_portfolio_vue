@@ -4,6 +4,11 @@ import LandingContainer from '@/UI/LandingContainer.vue'
 import SkillsSection from '@/UI/SkillsSection.vue'
 import { useRoute } from 'vue-router'
 
+
+function sayHello(name){
+  return name
+}
+
 const route = useRoute()
 </script>
 
